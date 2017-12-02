@@ -11,6 +11,10 @@
     Height="350"
     mc:Ignorable="d">
     <Grid>
-        <sharpGL:OpenGLControl DrawFPS="True" />
+        <sharpGL:OpenGLControl
+            DrawFPS="True"
+            OpenGLDraw="OpenGLControl_OpenGLDraw"
+            OpenGLInitialized="OpenGLControl_OpenGLInitialized"
+            Resized="OpenGLControl_Resized" />
     </Grid>
 </Window>
